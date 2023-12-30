@@ -1,0 +1,29 @@
+body {
+    background-color: whitesmoke;
+}
+
+#sidebar {
+    height: 100vh;
+    width: 250px;
+    left: 0px;
+    position: fixed;
+    background-color: #333;
+    padding-top: 30px;
+}
+#sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#sidebar ul li {
+    padding : 10px;
+    border-bottom: 1px solid #555;
+}
+#toggle-btn {
+    cursor: pointer;
+    margin-left: 20px;
+}
+#content {
+    transition: margin-left 0.3 ease;
+    margin-left: 250px;
+}
